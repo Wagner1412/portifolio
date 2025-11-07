@@ -139,5 +139,6 @@ span {
   #imagem-principal {
     border-color: #22d4fd;
     width: 40%;
+    border-radius: 50px;
   }
 }
