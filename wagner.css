@@ -52,6 +52,7 @@ body {
   font-size: 2.25rem;
   font-family: "Krona One", sans-serif;
   color: #22d4fd;
+  margin-bottom: 209px;
   text-align: center;
   padding: 5%;
 }
@@ -88,18 +89,17 @@ body {
   text-decoration: none;
   color: #f6f6f6;
   font-weight: bold;
-  border: 20px ridge yellow;
+  border: 4px ridge yellow;
   display: flex;
   justify-content: center;
   gap: 16px;
   transition: all 0.3s ease;
-
 }
 
 .apresentacao-links2:hover {
   background-color: yellow;
-  color: white;
-  cursor: pointer;
+  color: #000;
+  transform: scale(1.05);
 }
 
 footer {
@@ -115,7 +115,7 @@ span {
   color: yellow;
 }
 
-@media (min-width: 344px) and (max-width: 1080px) {
+@media (min-width: 344px) and (max-width: 768px) {
   body {
     background-color: #ff4e44;
   }
@@ -137,8 +137,8 @@ span {
   }
 
   #imagem-principal {
-    border-color: #22d4fd;
-    width: 40%;
-    border-radius: 50px;
+ border: 0cap 4px solid #22d4fd ;
+  width: 50%;
+    border-radius: 10px;
   }
 }
